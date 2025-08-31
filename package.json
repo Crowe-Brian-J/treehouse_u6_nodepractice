@@ -2,8 +2,9 @@
   "name": "treehouse_u6_nodepractice",
   "version": "1.0.0",
   "description": "I am maintaining this as a way to show my work through github as team treehouse uses an internal monitor for progress instead of commits.",
-  "main": "app.js",
+  "main": "dictionary.js",
   "scripts": {
+    "start": "node dictionary.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,7 +14,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/Crowe-Brian-J/treehouse_u6_nodepractice/issues"
   },

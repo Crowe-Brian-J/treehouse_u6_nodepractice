@@ -13,7 +13,7 @@ const word = args[0]
 
 // Replace with actual API key and URL here
 const API_KEY = process.env.API_KEY
-const url = `https://dictionaryapi.com/api/v3/references/collegiate/json/test?key=${API_KEY}`
+const url = `https://dictionaryapi.com/api/v3/references/collegiate/json/${word}?key=${API_KEY}`
 
 // Get definition
 const getDefinition = async () => {
