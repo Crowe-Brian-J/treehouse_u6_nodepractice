@@ -1,0 +1,24 @@
+{
+  "name": "treehouse_u6_nodepractice",
+  "version": "1.0.0",
+  "description": "I am maintaining this as a way to show my work through github as team treehouse uses an internal monitor for progress instead of commits.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crowe-Brian-J/treehouse_u6_nodepractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Crowe-Brian-J/treehouse_u6_nodepractice/issues"
+  },
+  "homepage": "https://github.com/Crowe-Brian-J/treehouse_u6_nodepractice#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
