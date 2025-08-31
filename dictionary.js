@@ -1,4 +1,5 @@
 import fetch from 'node-fetch'
+import 'dotenv/config'
 
 // Get the word from command line arguments
 const args = process.argv.slice(2)
@@ -11,7 +12,7 @@ if (args.length === 0) {
 const word = args[0]
 
 // Replace with actual API key and URL here
-const API_KEY = 'YOUR_API_KEY_HERE'
+const API_KEY = process.env.API_KEY
 const url = `https://dictionaryapi.com/api/v3/references/collegiate/json/test?key=${API_KEY}`
 
 // Get definition

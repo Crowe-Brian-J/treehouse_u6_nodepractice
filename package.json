@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Crowe-Brian-J/treehouse_u6_nodepractice#readme",
   "dependencies": {
+    "dotenv": "^17.2.1",
     "node-fetch": "^3.3.2"
   }
 }
